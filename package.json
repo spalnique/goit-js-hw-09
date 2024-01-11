@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-09-test-1",
+    "build": "vite build --base=/goit-js-hw-09-test-1/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "glob": "^10.3.10",
+    "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-html-inject": "^1.0.4"
   }
 }
