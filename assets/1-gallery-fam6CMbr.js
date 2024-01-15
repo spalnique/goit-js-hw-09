@@ -15,4 +15,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   </a>
 </li>`);_.insertAdjacentHTML("afterbegin",z.join(`
 
-`));new j(".gallery a",{captionsData:"alt",captionDelay:250,className:"lightbox-wrapper"});document.addEventListener("DOMContentLoaded",()=>{document.body.classList.add("visible")},{once:!0});
+`));new j(".gallery a",{captionsData:"alt",captionDelay:250,className:"lightbox-wrapper"});window.addEventListener("load",()=>{document.body.classList.add("visible")},{once:!0});
