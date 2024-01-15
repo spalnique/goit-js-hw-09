@@ -87,3 +87,11 @@ const instance = new SimpleLightbox('.gallery a', {
 	captionDelay: 250,
 	className: 'lightbox-wrapper',
 });
+
+document.addEventListener(
+	'DOMContentLoaded',
+	() => {
+		document.body.classList.add('visible');
+	},
+	{ once: true },
+);

@@ -52,3 +52,11 @@ feedback.addEventListener('submit', (e) => {
 	localStorage.clear(); // або .removeItem('feedback-form-state'), якщо хочемо тільки цей ключ видалити
 	feedback.reset();
 });
+
+document.addEventListener(
+	'DOMContentLoaded',
+	() => {
+		document.body.classList.add('visible');
+	},
+	{ once: true },
+);
