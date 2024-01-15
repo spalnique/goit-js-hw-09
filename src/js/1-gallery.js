@@ -88,8 +88,8 @@ const instance = new SimpleLightbox('.gallery a', {
 	className: 'lightbox-wrapper',
 });
 
-document.addEventListener(
-	'DOMContentLoaded',
+window.addEventListener(
+	'load',
 	() => {
 		document.body.classList.add('visible');
 	},

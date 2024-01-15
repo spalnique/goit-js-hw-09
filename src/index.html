@@ -12,9 +12,13 @@
 			<li><a class="back-button" href="./2-form.html">Form</a></li>
 		</ul>
 		<script>
-			document.addEventListener('DOMContentLoaded', () => {
-				document.body.classList.add('visible');
-			});
+			window.addEventListener(
+				'load',
+				() => {
+					document.body.classList.add('visible');
+				},
+				{ once: true },
+			);
 		</script>
 	</body>
 </html>

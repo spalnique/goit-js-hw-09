@@ -53,8 +53,8 @@ feedback.addEventListener('submit', (e) => {
 	feedback.reset();
 });
 
-document.addEventListener(
-	'DOMContentLoaded',
+window.addEventListener(
+	'load',
 	() => {
 		document.body.classList.add('visible');
 	},
